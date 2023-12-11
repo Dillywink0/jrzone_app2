@@ -19,11 +19,11 @@ class FaqScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               _buildFortyFiveStack(context),
-              Spacer(),
-              SizedBox(height: 550),
+              const Spacer(),
+              const SizedBox(height: 550),
               CustomElevatedButton(
                 text: "Send us a Message",
-                margin: EdgeInsets.only(right: 10),
+                margin: const EdgeInsets.only(right: 10),
               ),
             ],
           ),
@@ -34,7 +34,7 @@ class FaqScreen extends StatelessWidget {
 
   /// Section Widget
   Widget _buildFortyFiveStack(BuildContext context) {
-    return SizedBox(
+    return const SizedBox(
       height: 200,
       width: double.maxFinite,
       child: Stack(
